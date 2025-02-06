@@ -1,3 +1,7 @@
+import {cargarCartas} from "./components/tablero/tablero.js";
+
+cargarCartas();
+
 let Dom = document.querySelector("#root");
 
 let contenedor = document.createElement('div');
@@ -13,7 +17,9 @@ contenedor.appendChild(progreso);
 
 let tablero = document.createElement('div');
 tablero.className = "div_tablero"
+tablero.appendChild(cargarCartas());
 contenedor.appendChild(tablero);
+
 
 let footer = document.createElement('div');
 footer.className = "div_footer"
