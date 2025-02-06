@@ -1,3 +1,71 @@
 .div_header {
-    background-color: red;
+    width: 100%;
+    height: auto;
+
+    background-image: url("https://c.wallhere.com/photos/70/1c/space_stars_planet_traveler_artwork-2301816.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contenedor-h{
+    width: 125rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 0.5rem ;
+}
+
+.logo-img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.logo-h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botones-c{
+    width: 100rem;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botones-c .btn {
+    width: 4rem;        
+    height: 4rem;     
+    background-color:rgb(211, 176, 21);
+    border-radius: 50%;  
+    border: none;        
+    cursor: pointer;   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(211, 176, 21);
 }
