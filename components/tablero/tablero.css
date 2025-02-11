@@ -31,4 +31,18 @@
     box-shadow: 10px 10px 5px 0px rgba(63, 62, 62, 0.75);
 
     padding: 30px;
+    cursor: pointer;
+}
+
+.carta:hover{
+    background-color: blueviolet;
+    transition: 0.3s
+}
+
+.marcado{
+    background-color: red;
+}
+
+.marcado:hover{
+    background-color: antiquewhite;
 }

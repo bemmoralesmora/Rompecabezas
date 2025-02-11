@@ -16,7 +16,7 @@ function cargarCartas(){
     data().forEach((letra) =>{
         div.appendChild(item(letra));
     });
-    
+
     return div;
 }
 
