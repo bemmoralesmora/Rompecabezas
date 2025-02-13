@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
 
-    background-image: url("https://c.wallhere.com/photos/70/1c/space_stars_planet_traveler_artwork-2301816.jpg!d");
+    background-image: url("https://c.wallhere.com/photos/94/46/Star_Wars_X_wing_planet_space_spaceship_space_battle-2186957.jpg!d");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -51,7 +51,7 @@
 .botones-c .btn {
     width: 4rem;        
     height: 4rem;     
-    background-color:rgb(211, 176, 21);
+    background-color:rgb(67, 179, 57);
     border-radius: 50%;  
     border: none;        
     cursor: pointer;   
@@ -67,5 +67,5 @@
 
 .btn:hover{
     background-color: white;
-    color: rgb(211, 176, 21);
+    color: rgb(67, 179, 57);
 }

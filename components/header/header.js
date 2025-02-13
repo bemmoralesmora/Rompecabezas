@@ -7,7 +7,7 @@ function header1(){
     contenedor.appendChild(logo);
 
     let img = document.createElement('img');
-    img.src = "https://cdni.iconscout.com/illustration/premium/thumb/astronaut-playing-badminton-illustration-download-in-svg-png-gif-file-formats--sketch-logo-space-suit-exploration-activities-pack-people-illustrations-4989874.png?f=webp";
+    img.src = "https://images.vexels.com/media/users/3/301886/isolated/preview/a3f9c5b4e15eedcf66c44339bb1b2188-cabeza-aliena-gena-verde.png";
     img.className = "logo-img";
     logo.appendChild(img)
 
