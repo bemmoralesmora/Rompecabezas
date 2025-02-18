@@ -7,7 +7,7 @@
     background-image: url("https://c.wallhere.com/photos/94/46/Star_Wars_X_wing_planet_space_spaceship_space_battle-2186957.jpg!d");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: cover;
         
     height: 50rem;
     display: grid;
@@ -25,6 +25,8 @@
     height: 100px;
     perspective: 1000px;
     position: relative;
+    justify-self: center;
+    margin-top: 1rem;
 }
 
 .carta div {

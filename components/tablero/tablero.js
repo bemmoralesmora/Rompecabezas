@@ -1,37 +1,21 @@
-import { data } from "./data.js";
+import { cargarCartas } from "./funcionesCarta.js";
+import { mezclarCartas } from "./funcionesCarta.js";
+import { itemCarta } from "./itemCarta.js";
 
+function cargarTablero () {
 
-function item(contenido){
-    let div = document.createElement('div');
-    div.className = "carta";
-    
-    let front = document.createElement('div');
-    front.className = "front";
-    
-    let back = document.createElement('div');
-    back.className = "back";
-    back.innerText = contenido; // Mostrar el contenido en la parte trasera
-    
-    div.appendChild(front);
-    div.appendChild(back);
-    
-    div.addEventListener("click", () => {
-        div.classList.toggle("volteada");
-    });
-    
-    return div;
+     let cartas = cargarCartas();
+     let cartasMezcladas = mezclarCartas(cartas);
+ 
+     let div = document.createElement('div');
+     div.className = "div-tablero";
+ 
+     cartasMezcladas.forEach((letra) => {
+         div.appendChild(itemCarta(letra));
+     });
+ 
+     return div; 
 }
 
-function cargarCartas(){
-    
-    let div = document.createElement('div');
-    div.className = "div-tablero";
-    
-    data().forEach((letra) =>{
-        div.appendChild(item(letra));
-    });
+export {cargarTablero};
 
-    return div;
-}
-
-export{cargarCartas}
