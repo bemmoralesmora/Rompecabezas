@@ -1,4 +1,4 @@
-function header1(){
+function cargarHeader(){
     let contenedor = document.createElement('div');
     contenedor.className = "contenedor-h";
 
@@ -31,4 +31,4 @@ function header1(){
 }
 
 
-export {header1};
+export {cargarHeader};
